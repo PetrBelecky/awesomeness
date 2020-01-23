@@ -3,12 +3,15 @@
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
 
 body {
   margin: 0;
+}
+.section {
+  background-color: #ffff9c;
 }
 
 .container {
@@ -31,14 +34,17 @@ nav a {
 }
 
 nav a:hover {
-  color: #223c88;;
+  color: #223c88;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 900;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 3rem;
 }
 
@@ -59,7 +65,7 @@ section {
 .banner {
   height: 25rem;
 
-  background: #223c88 url('img/banner.jpg') center/cover no-repeat;
+  background: #223c88 url("img/banner.jpg") center/cover no-repeat;
 }
 
 .banner h1 {
@@ -67,11 +73,11 @@ section {
   padding-bottom: 1rem;
   border-bottom: 4px solid white;
 
-  color: white;  
+  color: white;
 }
 
 .yellow {
-  color: #ffE964;
+  color: #ffe964;
 }
 
 .red {
@@ -83,7 +89,7 @@ section {
 }
 
 .mission {
-  background-color: #ffE964;
+  background-color: #ffe964;
   color: black;
 
   text-align: center;
